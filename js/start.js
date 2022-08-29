@@ -56,12 +56,34 @@
 // console.log(makeUpperCase('hello'));
 
 
-const reverseSeq = num => {
-    let arr = [];
-    for (let i = 0; i <= num; i + 1) {
-        arr.push(i);
-    }
-    console.log(arr);
-  return arr;
-};
-reverseSeq(10);
+// const reverseSeq = num => {
+//     let arr = [];
+//     for (let i = num; i > 0; i -= 1) {
+//         arr.push(i);
+//     }
+//     console.log(arr);
+//   return arr;
+// };
+// reverseSeq(5);
+
+
+// function numberToString(num) {
+//  return String(num);
+// }
+// console.log(numberToString(15));
+
+// function digitize(n) {
+//   return [...'' + n].map(Number).reverse();
+//   // return arr.reverse();
+// }
+// console.log(digitize(54876)); 
+
+
+var summation = function (num) {
+  let summ = 0;
+  for (let i = 1; i <= num; i += 1){
+    summ += i;
+  }
+  return summ;
+  }
+console.log(summation(8)); 
